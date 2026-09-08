@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Вход | Wedding AI Planner</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section class="auth-section">
+    <div class="auth-card">
+      <h1>Вход в профил</h1>
+
+      <p>
+        Влезте в своя профил, за да продължите сватбеното си планиране.
+      </p>
+
+      <form id="loginForm" class="auth-form">
+        <input
+          type="email"
+          id="loginEmail"
+          placeholder="Имейл адрес"
+          autocomplete="email"
+          required
+        >
+
+        <input
+          type="password"
+          id="loginPassword"
+          placeholder="Парола"
+          autocomplete="current-password"
+          required
+        >
+
+        <button type="submit">Вход</button>
+      </form>
+
+      <div id="loginMessage"></div>
+
+      <p style="margin-top: 18px;">
+        Нямате профил?
+        <a href="register.html">Регистрация</a>
+      </p>
+    </div>
+  </section>
+
+  <script src="js/login.js"></script>
+</body>
+</html>

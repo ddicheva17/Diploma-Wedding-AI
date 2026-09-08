@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Моят профил | Wedding AI Planner</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Обобщение на сватбения профил -->
+  <section class="dashboard-section">
+    <div class="dashboard-card">
+      <span class="section-label">User Dashboard</span>
+      <h1>Моят сватбен профил</h1>
+
+      <p id="dashboardWelcome">
+        Зареждане на профила...
+      </p>
+
+      <div class="dashboard-overview">
+        <div class="progress-card">
+          <h3>Организация на сватбата</h3>
+
+          <div class="progress-bar-container">
+            <div
+              id="progressBar"
+              class="progress-bar-fill"
+              style="width: 0%;"
+            ></div>
+          </div>
+
+          <p id="progressText">0%</p>
+        </div>
+
+        <!-- Данни от Wedding Engine -->
+        <div class="dashboard-info-grid">
+          <div class="info-card">
+            <h4>Резервация</h4>
+            <div id="reservationInfo">Зареждане...</div>
+          </div>
+
+          <div class="info-card">
+            <h4>Избрани услуги</h4>
+            <div id="servicesInfo">Зареждане...</div>
+          </div>
+
+          <div class="info-card">
+            <h4>Следващи стъпки</h4>
+            <div id="nextStepsInfo">Зареждане...</div>
+          </div>
+
+          <div class="info-card">
+            <h4>AI модули</h4>
+            <div id="modulesInfo">Зареждане...</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dashboard-actions">
+        <a href="assistant.html" class="dashboard-btn">
+          Продължи с AI асистента
+        </a>
+
+        <a href="visualizations.html" class="dashboard-btn secondary">
+          Моите AI визуализации
+        </a>
+
+        <a href="reservations.html" class="dashboard-btn secondary">
+          Моите резервации
+        </a>
+
+        <button
+          type="button"
+          id="logoutBtn"
+          class="dashboard-btn logout"
+        >
+          Изход
+        </button>
+
+        <a href="index.html" class="back-profile-btn">
+          ← Назад към началната страница
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/common.js"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/auth_navbar.js"></script>
+</body>
+</html>

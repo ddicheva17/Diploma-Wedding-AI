@@ -1,0 +1,62 @@
+{
+  "planning": {
+    "title": "Цялостно сватбено планиране",
+    "description": "Примери за цялостна организация, концепция и координация на сватбени събития.",
+    "aliases": [
+      "планиране", "цялостно планиране", "организация",
+      "сватбено планиране"
+    ],
+    "images": [
+      "planning1.jpg", "planning2.jpg", "planning3.jpg",
+      "planning4.jpg", "planning5.jpg", "planning6.jpg"
+    ]
+  },
+  "decoration": {
+    "title": "Декорация и стайлинг",
+    "description": "Визуални концепции, флорална декорация и елегантен сватбен стайлинг.",
+    "aliases": [
+      "декорация", "стайлинг", "украса", "сватбена декорация"
+    ],
+    "images": [
+      "decoration1.jpg", "decoration2.jpg", "decoration3.jpg",
+      "decoration4.jpg", "decoration5.jpg", "decoration6.jpg",
+      "decoration7.jpg", "decoration8.jpg", "decoration9.jpg"
+    ]
+  },
+  "invitations": {
+    "title": "Сватбени покани",
+    "description": "Примери за покани и печатни материали, съобразени със стила на събитието.",
+    "aliases": [
+      "покана", "покани", "сватбена покана", "сватбени покани"
+    ],
+    "images": [
+      "invitations1.jpg", "invitations2.jpg", "invitations3.jpg",
+      "invitations4.jpg", "invitations5.jpg", "invitations6.jpg",
+      "invitations7.jpg", "invitations8.jpg", "invitations9.jpg"
+    ]
+  },
+  "cakes": {
+    "title": "Сватбени торти",
+    "description": "Идеи за елегантни сватбени торти според дизайн, вкус и концепция.",
+    "aliases": [
+      "торта", "торти", "сватбена торта", "сватбени торти"
+    ],
+    "images": [
+      "cakes1.jpg", "cakes2.jpg", "cakes3.jpg",
+      "cakes4.jpg", "cakes5.jpg", "cakes6.jpg",
+      "cakes7.jpg", "cakes8.jpg", "cakes9.jpg"
+    ]
+  },
+  "fireworks": {
+    "title": "Заря и пироефекти",
+    "description": "Впечатляващи светлинни и пироефекти за специален финал на сватбения ден.",
+    "aliases": [
+      "заря", "пироефекти", "фойерверки", "сватбена заря"
+    ],
+    "images": [
+      "fireworks1.jpg", "fireworks2.jpg", "fireworks3.jpg",
+      "fireworks4.jpg", "fireworks5.jpg", "fireworks6.jpg",
+      "fireworks7.jpg", "fireworks8.jpg", "fireworks9.jpg"
+    ]
+  }
+}
